@@ -77,13 +77,14 @@ body {
 
 .container-harry-potter {
     width: 100%;
-    height: 2000px;
+    height: max-content;
     background-color: #740001;
+    border-bottom: 2px solid #5D5D5D; 
 }
 
 .potter-content {
     width: 94%;
-    height: 1100px;
+    height: max-content;
     margin: 0px auto;
 }
 
@@ -108,7 +109,7 @@ body {
     color: #fff;
 }
 
-.span-localizacao {
+.span-potter {
     color: #EEBA30;
 }
 
@@ -120,7 +121,6 @@ body {
     margin: 10px auto;
     color: #fff;
 }
-
 
 .potter-paragrafo-2 {
     padding-top: 15px;
@@ -144,12 +144,26 @@ body {
     border-radius: 5px;
 }
 
-.personagem-potter {
-    float: right;
-    padding-top: 200px;
+.glenfinnan {
+   justify-content: center;
 }
 
-.caixa-mensagem {
-    float: right;
-    padding-top: 70px;
+.container-img-final {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+}
+
+.personagem-potter {
+    padding-top: 150px;
+}
+
+.container-filme2 {
+    background-color: #202020;
+    width: 100%;
+    height: 1000px;
 }
