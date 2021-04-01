@@ -206,7 +206,6 @@ body {
     border: 2px solid #e8ecf2;
 }
 
-
 .footer {
     display: flex;
     justify-content: center;
@@ -224,4 +223,6 @@ body {
     display: flex;
     align-items: center;
 }
+
+
 
